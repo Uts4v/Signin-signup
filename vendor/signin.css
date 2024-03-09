@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+body .container{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:4%;
+    width: 80%;
+    height: 90%;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+
+body .container .pic img{
+    position: absolute;
+    right: 2%;
+    top: 6%;
+    border-radius: 2rem;
+
+}
+
+.pic h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.email{
+    line-height: 40px;
+}
+
+.email input{
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    margin-left:120px;
+}
+
+.email ::placeholder{
+    text-align: center;
+}
+
+.email h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+
+.password{
+    line-height: 40px;
+}
+
+.password input{
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.password ::placeholder{
+    text-align: center;
+}
+
+.password h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.forget_password{
+    color: blue;
+    font-size: small;
+    margin-left: 180px;
+    line-height: 20px;
+}
+
+.sign_in button{
+    border: transparent;
+    background-color: #162D3A;
+    color: white;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.sign_in{
+    padding-top: 20px;
+} p{
+    font-size: 13px;
+    margin-left: 175px;
+    margin-top: 20px;
+}
